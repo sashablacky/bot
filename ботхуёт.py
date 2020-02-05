@@ -7,10 +7,10 @@ import bs4
 import requests
 import os
 
-token = "a04d1f272b7cb3ab841fbe2d1fcbe704e37fbc6dc2b36b3f99466ad05f7ece43b275c8e242fa95f8f4e78"
-dlg_fl='a83553effdcb4a549dcc5fef916ba3c6'
+token = ""
+dlg_fl=''
 vk = vk_api.VkApi(token=token)
-vk._auth_token('a04d1f272b7cb3ab841fbe2d1fcbe704e37fbc6dc2b36b3f99466ad05f7ece43b275c8e242fa95f8f4e78')
+vk._auth_token('')
 upload = vk_api.upload.VkUpload(vk)
 
 value = { 
